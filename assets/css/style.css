@@ -22,14 +22,18 @@ header{
     margin: auto;
 }
 .logo{
-    width: 100px;
-}
-.logoimg{
+    margin-left: 15px;
+    display: flex;
     width: 80px;
     height: 80px;
-    background-color:#fff;
-    border-radius: 40px;
-    
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.logo img{
+    width: 53px;
+    height: 53px;
 }
 .menu ul,
 .menu li{
@@ -71,6 +75,7 @@ header{
     border-radius: 20px;
     margin-top:30px;
 }
+
 
 /*--------------------Area do banner-------------------------*/
 .banner{
