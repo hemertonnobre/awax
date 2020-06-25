@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Awax</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
     </head>
     <body>
        <header>
@@ -13,6 +15,10 @@
                     <img src="assets/images/logo.png.png" alt="logo">
                 </div>
                 <div class="menu">
+                    <a href="javascript:0" class="menu-mobile"> 
+                        <img class="menu-opener" src="assets/images/menu.png" alt="imagen menu">
+                    </a>
+                   
                     <nav>
                         <ul>
                             <li class="active"><a href="">home</a></li>
@@ -459,7 +465,10 @@
                 <div class="pointer"></div>
                 <div class="pointer"></div>
             </div>
-            <a href="" class="botton">GET IN TOUCH</a>              
+            <div class="premium-botton">
+                <a href="" class="botton">GET IN TOUCH</a> 
+            </div>
+                         
         </div>
     </section> 
     
@@ -495,22 +504,104 @@
             </div>
         </div>
     </section>
-    <section class="default">
+    <section class="default logos">
         <div class="section-body">
             <div class="logo-sociais">
-                <a class="twitter" href=""><img  src="assets/images/twitter.png" alt=""></a>
-                <a class="linkedin" href=""><img  src="assets/images/linkedin.png" alt=""></a>
-                <a class="facebook" href=""><img  src="assets/images/facebook.png" alt=""></a>    
-                <a class="googleplus" href=""><img  src="assets/images/googleplus.png" alt=""></a>
-                <a class="pinterest" href=""><img  src="assets/images/pinterest.png" alt=""></a>
-
+                <div class="logo-tel">
+                    <a class="tel"   href=""><img src="assets/images/share.png" alt=""></a><p>tel about us:</p>
+                </div>
+                <div class="logo-img">
+                    <a class="twitter" href=""><img  src="assets/images/twitter.png" alt=""></a><p>152</p>
+                    <a class="linkedin" href=""><img  src="assets/images/linkedin.png" alt=""></a><p>51</p>
+                    <a class="facebook" href=""><img  src="assets/images/facebook.png" alt=""></a><p>165</p>  
+                    <a class="googleplus" href=""><img  src="assets/images/googleplus.png" alt=""></a><p>22</p>
+                    <a class="pinterest" href=""><img  src="assets/images/pinterest.png" alt=""></a><p>165</p>
+                </div>
             </div>
         </div>
     </section>
+    <section class="default ligth">
+        <div class="section-title">contact us</div>
+        <div class="section-desc">our agencay located in melbourne, australia</div>
+        <div class="section-body">
+           <div class="section-contact">
+               <form method="POST">
+                   <div class="section-contact--split">
+                        <input type="text" name="name" placeholder="NAME">
+                        <input type="text" name="name" placeholder="EMAIL">
+                   </div>
+                   <input type="text" name="name" placeholder="SUBJECT">
+                   <textarea name="message" placeholder="MESSAGE" ></textarea>
+                   <input type="submit" value="send Message" class="botton">
+               </form>
+           </div>
+        </div>
+    </section>
+    <section class="section-map">
+        <div class="section-map--area">
+            <div class="section-map--info">
+                <div class="section-map--info-item">
+                    <div class="section-map--info-img">
+                        <img src="assets/images/carta.png" alt="logo carta">
+                    </div>
+                    <p> PO Box 16122 Collins Street West Victoria 8070 Australia</p>
+                </div>
+                <div class="section-map--info-item">
+                    <div class="section-map--info-img">
+                        <img src="assets/images/localizacao.png" alt="logo carta">
+                    </div>
+                    <p> PO Box 16122 Collins Street West Victoria 8070 Australia</p>
+                </div>
+                <div class="section-map--info-item">
+                    <div class="section-map--info-img">
+                        <img src="assets/images/telefone.png" alt="logo carta">
+                    </div>
+                    <p> PO Box 16122 Collins Street West Victoria 8070 Australia</p>
+                </div>
+                <div class="section-map--info-item">
+                    <div class="section-map--info-img">
+                        <img src="assets/images/arroba.png" alt="logo carta">
+                    </div>
+                    <p> PO Box 16122 Collins Street West Victoria 8070 Australia</p>
+                </div>
+                <div class="section-map--info-item">
+                    <div class="section-map--info-img">
+                        <img src="assets/images/web.png" alt="logo carta">
+                    </div>
+                    <p> PO Box 16122 Collins Street West Victoria 8070 Australia</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
        </main>
        <footer>
-
+        <div class="footer-area">
+            <div class="footer-item area-1">
+                <div class="footer-social">
+                    <a href=""><img src="assets/images/twitter.png" alt=""></a>
+                    <a href=""><img src="assets/images/linkedin.png" alt=""></a>
+                    <a href=""><img src="assets/images/facebook.png" alt=""></a>
+                    <a href=""><img src="assets/images/googleplus.png" alt=""></a>
+                    <a href=""><img src="assets/images/pinterest.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-item area-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Pellentesque vitae ultricies metus. Suspendisse nec finibus est, 
+                    ut egestas massa. Quisque luctus, nisl eget dignissim facilisis, orci est aliquet arcu, 
+                    sed semper ante lorem ut orci. Aliquam ipsum mauris, consequat id ultrices non, mollis id magna.
+                    Nam a arcu posuere</p>
+            </div>
+            <div class="footer-item area-3">
+                <form method="POST">
+                    <input type="email" name="email" placeholder="EMAIL TO SUBSCRIBE">
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
        </footer>
+       <script src="assets/script/script.js"></script>
     </body>
 </html>
 
